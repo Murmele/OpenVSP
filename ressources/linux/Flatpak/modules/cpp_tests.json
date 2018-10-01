@@ -1,0 +1,17 @@
+{
+	"name": "cpp_tests",
+	"buildsystem": "simple",
+	"config-opts": [],
+	"build-commands": [
+		"./configure --prefix=/app",
+		"make",
+		"make install"
+	],
+	"sources" : [
+		{
+			"type": "archive",
+			"url": "https://downloads.sourceforge.net/cpptest/cpptest-1.1.2.tar.gz",
+			"sha256": "9e4fdf156b709397308536eb6b921e3aea1f463c6613f9a0c1dfec9614386027"
+		}
+	]
+}

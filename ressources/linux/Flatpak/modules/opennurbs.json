@@ -1,0 +1,18 @@
+{
+	"name": "opennurbs",
+	"buildsystem": "cmake",
+	"builddir": true,
+	"config-opts": [
+		"-DCMAKE_BINARY_DIR:PATH=/app",
+		"-DCMAKE_PREFIX_PATH:PATH=/app"
+	],
+	"sources": [
+		{
+			"type": "git",
+			"url": "https://github.com/OpenNURBS/OpenNURBS.git",
+			"branch": "develop"
+		}
+	]
+}
+
+

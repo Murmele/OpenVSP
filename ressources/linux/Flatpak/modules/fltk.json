@@ -1,0 +1,14 @@
+{
+	"name": "fltk",
+	"buildsystem": "cmake",
+	"builddir": true,
+	"config-opts":[
+		"-DCMAKE_INSTALL_PREFIX=/app"
+	],
+	"sources": [
+		{
+			"type": "git",
+			"url": "https://github.com/fltk/fltk"
+		}
+	]
+}

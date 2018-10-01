@@ -1,0 +1,13 @@
+{
+	"name": "cminpack",
+	"buildsystem": "cmake",
+	"config-opts": [
+		"-DCMAKE_PREFIX_PATH=/app"
+	],
+	"sources": [
+		{
+			"type": "git",
+			"url": "https://github.com/devernay/cminpack"
+		}
+	]
+}

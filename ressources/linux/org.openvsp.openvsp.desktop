@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=OpenVSP
+Name[de_AT]=OpenVSP
+GenericName=c
+GenericName[de]=OpenVSP
+Comment=
+Comment[de]=
+Exec=org.openvsp.openvsp %U
+Icon=org.openvsp.openvsp.png
+Terminal=false
+Type=Application
+Categories=Engineering;
+StartupNotify=false
+
